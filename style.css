@@ -1,0 +1,128 @@
+/*font-family: 'Anek Tamil', sans-serif;
+font-family: 'Comfortaa', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@200&family=Comfortaa:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(113.38deg, #011629 40.47%, #000000 96.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logoheader {
+    height: 72px;
+}
+
+.menu-cabecalho {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-cabecalho-item {
+    font-family: 'Comfortaa', cursive;
+    color: #ECECEC;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.conteudo {
+    border-top: 0.1px solid #0085FF;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Comfortaa', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Anek Tamil', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0085FF;
+}
+
+.conteudo-principal-escrito-botao {
+    font-family: 'Anek Tamil', sans-serif;
+    background-color: #0085FF;
+    color:rgb(255, 255, 255);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 7px 12px 4px rgba(0, 0, 0, 0.47);
+    border-radius: 15px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #162b3e;
+}
+
+.conteudo-principal-imagem {
+    padding-top: 20px;
+    height: 300px;
+}
+
+.conteudo-diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Anek Tamil', sans-serif;
+    gap: 24px;
+    margin-top:48px;
+}
+
+.conteudo-difernciais-titulo {
+    border-top: 0.1px solid #0085FF;
+    padding-top: 48px;
+    color: #0085FF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.conteudo-diferenciais-item {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.1px solid #0085FF;
+}
+
+
+.imagem-rodape {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
