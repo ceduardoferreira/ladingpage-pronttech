@@ -75,6 +75,7 @@ body {
     font-family: 'Anek Tamil', sans-serif;
     background-color: #0085FF;
     color:rgb(255, 255, 255);
+    cursor: pointer;
     width: 180px;
     height: 60px;
     border: none;
